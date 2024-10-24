@@ -1,0 +1,1 @@
+//Remoção de dados de um vetor;
