@@ -1,0 +1,1 @@
+// Como encontrar uma substring com a função strstr():
