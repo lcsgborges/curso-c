@@ -1,0 +1,1 @@
+esse é um arquivo feito por algúem aprendendo C
