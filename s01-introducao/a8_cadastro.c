@@ -9,7 +9,7 @@ int main()
     float altura;
 
     printf("---------------------------------------------\n");
-    printf("----------CADASTRAMENTO DE USUÁRIOS----------\n");
+    printf("-------------CADASTRO DE USUÁRIOS------------\n");
     printf("---------------------------------------------\n");
 
     printf("Digite sua idade: \n");
