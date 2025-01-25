@@ -5,7 +5,7 @@
 
     w  -> escrita
     r  -> leitura
-    a  -> anexar
+    a  -> append
     r+ -> leitura e escrita
     w+ -> leitura e escrita (apaga o conteúdo caso o arquivo exista)
     a+ -> leitura e escrita (adiciona ao final do arquivo)

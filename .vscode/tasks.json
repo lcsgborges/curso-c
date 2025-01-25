@@ -12,7 +12,10 @@
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${fileDirname}",
+                "env": {
+                    "LANG": "pt_BR.UTF-8"
+                }
             },
             "problemMatcher": [
                 "$gcc"
