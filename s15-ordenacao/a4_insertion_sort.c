@@ -25,7 +25,7 @@ void insertion_sort(int vet[], int inicio, int fim){
 void insertior_sort_otimizado_sem_swap(int *vet, int inicio, int fim){
     int i, j, chave;
 
-    for (i = inicio +1; i < fim; i++){
+    for (i = inicio +1; i <= fim; i++){
         chave = vet[i];
 
         for(j = i; j > inicio && chave < vet[j-1]; j--){
