@@ -12,7 +12,8 @@
     Comparações proporcionais a N^3/2
 */
 
-#define SIZE 5000
+#define SIZE 1000000
+
 
 void shell_sort(int *vet, int inicio, int fim){
     int h = 1, i, j, chave;
@@ -37,7 +38,7 @@ int main(){
     int vetor[SIZE];
 
     for (int i = 0; i < SIZE; i++) {
-        vetor[i] = rand() % 5000 + 1;
+        vetor[i] = rand() % 1000000 + 1;
     }
     
     shell_sort(vetor, 0, SIZE);
