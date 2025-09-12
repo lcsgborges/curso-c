@@ -1,11 +1,12 @@
-#include <stdio.h>
-
 // Operadores matemáticos simples:
 
 // soma +
 // subtração -
 // divisão /
 // multiplicação *
+
+#include <stdio.h>
+
 
 int main(){
 
@@ -14,7 +15,7 @@ int main(){
     int soma = x + y;
     int subtracao = x - y;
     int multiplicacao = x * y;
-    float divisao = x / y;
+    float divisao = (float) x / y; 
 
     printf("x = %d, y = %d\n", x, y);
     printf("Adição = %d\n", soma);

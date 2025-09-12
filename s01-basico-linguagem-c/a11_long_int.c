@@ -10,9 +10,11 @@
 
 int main(){
 
-    
+    long int n = 9223372036854775807;
 
-    printf("Tamanho em memória de um long int: %lld bytes.\n", sizeof(long long int));
-
+    printf("Tamanho em memória de um long int: %ld bytes.\n", sizeof(long int));
     
+    printf("Maior número long int positivo: %ld\n", n);
+
+    return 0;
 }
