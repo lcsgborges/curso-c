@@ -5,11 +5,12 @@
 #include <stdio.h>
 #include <string.h>
 
+// caixa Pessoa com caracteristicas próprias  
 typedef struct{
     char sexo;
     int idade;
     char nome[50];
-}Pessoa;                   // caixa Pessoa com caracteristicas próprias  
+}Pessoa;                   
 
 struct Pessoa2{           // outro jeito de criar uma struct
     int idade;
